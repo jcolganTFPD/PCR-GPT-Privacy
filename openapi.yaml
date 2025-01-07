@@ -1,0 +1,33 @@
+openapi: 3.1.0
+info:
+  title: "PCR GPT Public Action"
+  description: "API to demonstrate a plugin with a public privacy policy reference."
+  version: "1.0.0"
+  termsOfService: "https://jcolgantfpd.github.io/PCR-GPT-Privacy/index.html"
+  contact:
+    name: "Josh"
+    url: "https://jcolgantfpd.github.io/PCR-GPT-Privacy"
+    email: "your@email.com"
+  license:
+    name: "MIT"
+    url: "https://opensource.org/licenses/MIT"
+servers:
+  - url: "https://api.example.com"
+paths:
+  /hello:
+    get:
+      summary: "Says hello"
+      operationId: "sayHello"
+      responses:
+        "200":
+          description: "Returns a simple greeting"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  greeting:
+                    type: string
+                    description: "A greeting message"
+components:
+  schemas: {}
