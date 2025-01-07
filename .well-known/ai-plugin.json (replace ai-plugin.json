@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "PCR GPT",
+  "name_for_model": "pcr_gpt",
+  "description_for_model": "PCR GPT plugin to demonstrate a public privacy policy.",
+  "description_for_human": "PCR GPT plugin to demonstrate a public privacy policy.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://jcolgantfpd.github.io/PCR-GPT-Privacy/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://jcolgantfpd.github.io/PCR-GPT-Privacy/logo.png",
+  "contact_email": "your@email.com",
+  "legal_info_url": "https://jcolgantfpd.github.io/PCR-GPT-Privacy/index.html"
+}
